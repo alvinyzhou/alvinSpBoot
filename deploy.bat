@@ -1,0 +1,2 @@
+del /F /S /Q C:\apache-tomcat-7.0.92\webapps\comapp-0.0.1-SNAPSHOT.war
+copy C:\Users\Administrator\.jenkins\workspace\CI-CD\ci-cd-auto\target\comapp-0.0.1-SNAPSHOT.war C:\apache-tomcat-7.0.92\webapps\comapp-0.0.1-SNAPSHOT.war
